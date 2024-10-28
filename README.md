@@ -61,4 +61,3 @@ The optimized images will be saved in an `optimized` directory within the same d
 ## License
 
 This project is licensed under the MIT License.
-# cli-image-optimization
