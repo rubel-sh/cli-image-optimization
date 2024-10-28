@@ -14,7 +14,7 @@ const rl = readline.createInterface({
 });
 
 const question = (query) => new Promise((resolve) => rl.question(query, resolve));
-const downloadDir = path.join(__dirname, "imageOptimizationDownloads");
+const downloadDir = path.join(__dirname, "downloads");
 
 if (!fs.existsSync(downloadDir)) {
   fs.mkdirSync(downloadDir);
